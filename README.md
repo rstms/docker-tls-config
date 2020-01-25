@@ -4,6 +4,8 @@ docker-tls-config
 Makefile to generate the public key infrastructure files required for client certificate authenticated TLS
 connections to dockerd
 
+Implements the commands described at https://docs.docker.com/engine/security/https/
+
 Requirements:
  - make
  - openssl
